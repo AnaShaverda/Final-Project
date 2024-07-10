@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 1rem;
+}
+
+body {
+  font-family: "Rubik", sans-serif;
+  background-color: var(--verylightgray);
+}
+
+:root {
+  --moderateblue: hsl(238, 40%, 52%);
+  --softred: hsl(358, 79%, 66%);
+  --lightgrayishblue: hsl(239, 57%, 85%);
+  --palered: hsl(357, 100%, 86%);
+  --darkblue: hsl(212, 24%, 26%);
+  --grayishblue: hsl(211, 10%, 45%);
+  --lightgray: hsl(223, 19%, 93%);
+  --verylightgray: hsl(240, 2%, 89%);
+  --white: hsl(0, 0%, 100%);
+}
+@media screen and (min-width: 800px) {
+  body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .App {
+    max-width: 800px;
+    margin-top: 5%;
+  }
+}
